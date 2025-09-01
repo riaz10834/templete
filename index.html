@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlixanOS</title>
+    <!-- Import Inter font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+      color: white;
+      background: linear-gradient(
+        180deg,
+        #2a2155 0%,
+        #1a1a3a 40%,
+        #0d0d0d 100%
+      );
+      min-height: 100vh;
+    "
+  >
+    <!-- HERO -->
+    <div
+      style="
+        width: 600px;
+        height: 350px;
+        margin: 40px auto;
+        position: relative;
+        background: linear-gradient(to bottom, #625aff8c 0%, #413b9900 100%);
+        border-radius: 20px;
+        overflow: hidden;
+      "
+    >
+      <div
+        style="
+          width: 100%;
+          height: 78px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 20px;
+          padding-top: 22px;
+        "
+      >
+        <h1
+          style="
+            font-weight: 400;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+          "
+        >
+          Alixan <img src="ring2.png" alt="" width="30" height="30" />
+          <span>S</span>
+        </h1>
+      </div>
+
+      <div
+        style="
+          width: 425px;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        "
+      >
+        <p style="font-size: 34px; font-weight: 400; margin: 0 0 10px">
+          You’ve been added to <br />the inside
+        </p>
+        <p
+          style="
+            color: #ffffffcc;
+            font-size: 14px;
+            margin: 0 0 20px;
+            line-height: 1.5;
+          "
+        >
+          <span style="font-weight: 700">AlixanOS</span> is building the OS for
+          your best life, combining health data, behavior, and AI to guide you
+          toward real alignment.
+        </p>
+
+        <p style="font-size: 16px; margin: 0 0 12px">
+          To see where we are today, explore our progress.
+        </p>
+        <button
+          style="
+            background: #6c63ff;
+            width: 252px;
+            height: 47px;
+            border-radius: 24px;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+            font-family: 'Inter', sans-serif;
+          "
+        >
+          See our progress
+        </button>
+      </div>
+
+      <img
+        src="ring.png"
+        alt=""
+        style="
+          position: absolute;
+          right: -20px;
+          bottom: -20px;
+          width: 200px;
+          height: 200px;
+          opacity: 0.7;
+        "
+      />
+    </div>
+
+    <!-- SHOWCASE -->
+    <div
+      style="
+        width: 450px;
+        margin: 60px auto;
+        text-align: center;
+        position: relative;
+      "
+    >
+      <h1
+        style="
+          font-size: 24px;
+          margin-bottom: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          white-space: nowrap;
+          gap: 10px;
+          font-weight: lighter;
+        "
+      >
+        <img src="Line 15.png" alt="" style="height: 2px; width: 70px" />
+        And here’s where we’re going:
+        <img src="Line 15.png" alt="" style="height: 2px; width: 70px" />
+      </h1>
+
+      <!-- vertical connecting line -->
+      <div
+        style="
+          position: absolute;
+          top: 130px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 2px;
+          height: calc(100% - 180px);
+          background: rgba(255, 255, 255, 0.6);
+        "
+      ></div>
+
+      <!-- Stacked Cards -->
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          align-items: center;
+        "
+      >
+        <!-- Card 1 -->
+        <div
+          style="
+            position: relative;
+            width: 60%;
+            backdrop-filter: blur(16px);
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 24px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            overflow: hidden;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              top: 0;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 40%;
+              height: 50px;
+              background: radial-gradient(
+                circle at top center,
+                rgba(108, 99, 255, 0.08),
+                transparent
+              );
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;
+              z-index: 0;
+            "
+          ></div>
+
+          <img
+            src="oui_integration-security.png"
+            alt=""
+            style="
+              width: 24px;
+              margin-bottom: 12px;
+              position: relative;
+              z-index: 1;
+            "
+          />
+          <p
+            style="
+              font-size: 16px;
+              font-weight: 500;
+              margin: 0;
+              position: relative;
+              z-index: 1;
+              text-align: left;
+            "
+          >
+            Seamless Apple HealthKit Integration
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          style="
+            position: relative;
+            width: 60%;
+            backdrop-filter: blur(16px);
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 24px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            overflow: hidden;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              top: 0;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 40%;
+              height: 50px;
+              background: radial-gradient(
+                circle at top center,
+                rgba(108, 99, 255, 0.08),
+                transparent
+              );
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;
+              z-index: 0;
+            "
+          ></div>
+
+          <img
+            src="Vector.png"
+            alt=""
+            style="
+              width: 24px;
+              margin-bottom: 12px;
+              position: relative;
+              z-index: 1;
+            "
+          />
+          <p
+            style="
+              font-size: 16px;
+              font-weight: 500;
+              margin: 0;
+              position: relative;
+              z-index: 1;
+              text-align: left;
+            "
+          >
+            Adaptive AI that personalizes feedback daily
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          style="
+            position: relative;
+            width: 60%;
+            backdrop-filter: blur(16px);
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 24px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            overflow: hidden;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              top: 0;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 40%;
+              height: 50px;
+              background: radial-gradient(
+                circle at top center,
+                rgba(108, 99, 255, 0.08),
+                transparent
+              );
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;
+              z-index: 0;
+            "
+          ></div>
+
+          <img
+            src="material-symbols_dashboard-outline-rounded.png"
+            alt=""
+            style="
+              width: 24px;
+              margin-bottom: 12px;
+              position: relative;
+              z-index: 1;
+            "
+          />
+          <p
+            style="
+              font-size: 16px;
+              font-weight: 500;
+              margin: 0;
+              position: relative;
+              z-index: 1;
+              text-align: left;
+            "
+          >
+            Real-time dashboard for daily alignment (AlixanOS v2)
+          </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          style="
+            position: relative;
+            width: 60%;
+            backdrop-filter: blur(16px);
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 24px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            overflow: hidden;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              top: 0;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 40%;
+              height: 50px;
+              background: radial-gradient(
+                circle at top center,
+                rgba(108, 99, 255, 0.08),
+                transparent
+              );
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;
+              z-index: 0;
+            "
+          ></div>
+
+          <img
+            src="material-symbols_genetics-rounded.png"
+            alt=""
+            style="
+              width: 24px;
+              margin-bottom: 12px;
+              position: relative;
+              z-index: 1;
+            "
+          />
+          <p
+            style="
+              font-size: 16px;
+              font-weight: 500;
+              margin: 0;
+              position: relative;
+              z-index: 1;
+              text-align: left;
+            "
+          >
+            Genetic, lab, and biomarker data integration
+          </p>
+        </div>
+
+        <!-- Card 5 -->
+        <div
+          style="
+            position: relative;
+            width: 60%;
+            backdrop-filter: blur(16px);
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 24px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            overflow: hidden;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              top: 0;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 40%;
+              height: 50px;
+              background: radial-gradient(
+                circle at top center,
+                rgba(108, 99, 255, 0.08),
+                transparent
+              );
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;
+              z-index: 0;
+            "
+          ></div>
+
+          <img
+            src="solar_global-linear.png"
+            alt=""
+            style="
+              width: 24px;
+              margin-bottom: 12px;
+              position: relative;
+              z-index: 1;
+            "
+          />
+          <p
+            style="
+              font-size: 16px;
+              font-weight: 500;
+              margin: 0;
+              position: relative;
+              z-index: 1;
+              text-align: left;
+            "
+          >
+            Global optimization network for long-term longevity and impact
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bordered Section -->
+    <div
+      style="
+        margin: auto;
+        border-top: 0.5px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 500px;
+        padding: 16px 0;
+      "
+    >
+      <h2 style="text-transform: uppercase; font-size: 20px; margin: 0 0 8px">
+        You’re early.
+      </h2>
+      <p style="margin: 0">You’re now on the inside.</p>
+    </div>
+
+    <!-- Outside Paragraph -->
+    <p
+      style="
+        font-size: 14px;
+        color: #ddd;
+        margin: 16px auto 0;
+        max-width: 500px;
+        text-align: center;
+      "
+    >
+      We’ll share exclusive updates, behind-the-scenes tools, and experiments
+      before anyone else.
+    </p>
+
+    <!-- FOOTER -->
+    <div
+      style="
+        width: 600px;
+        margin: 60px auto;
+        text-align: center;
+        position: relative;
+      "
+    >
+      <!-- Background Image -->
+      <img
+        src="ring2.png"
+        alt=""
+        style="
+          position: absolute;
+          top: -10%;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 280px;
+          height: auto;
+          opacity: 0.12;
+          z-index: 0;
+        "
+      />
+
+      <!-- Footer Card -->
+      <div
+        style="
+          background: rgba(30, 30, 30, 0.55);
+          backdrop-filter: blur(14px);
+          border-radius: 20px;
+          padding: 40px 20px;
+          box-shadow: 0 20px 10px rgba(0, 0, 0, 0.6);
+          position: relative;
+          z-index: 1;
+        "
+      >
+        <div style="margin-top: 20px">
+          <p style="text-transform: uppercase; font-size: 14px; margin: 0">
+            This isn’t just an app.
+          </p>
+          <span
+            style="text-transform: uppercase; font-size: 16px; font-weight: 700"
+            >It’s a new standard for life.</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
